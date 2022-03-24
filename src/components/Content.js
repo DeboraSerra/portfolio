@@ -12,11 +12,11 @@ class Content extends React.Component {
     return (
       <main>
         <Switch>
-          <Route path="/about" component={ About } />
-          <Route path="/contact" component={ Contact } />
-          <Route path="/resume" component={ Curriculum } />
-          <Route path="/projects" component={ Projects } />
-          <Route path="/" component={ Home } />
+          <Route path="/portfolio/about" component={ About } />
+          <Route path="/portfolio/contact" component={ Contact } />
+          <Route path="/portfolio/resume" component={ Curriculum } />
+          <Route path="/portfolio/projects" component={ Projects } />
+          <Route path="/portfolio/" component={ Home } />
           <Route path="*" component={ NotFound } />
         </Switch>
       </main>
