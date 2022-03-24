@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.81fb00b0.chunk.css",
+    "main.js": "/static/js/main.6c2c8d8a.chunk.js",
+    "main.js.map": "/static/js/main.6c2c8d8a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.48e6d503.js",
+    "runtime-main.js.map": "/static/js/runtime-main.48e6d503.js.map",
+    "static/js/2.90f16533.chunk.js": "/static/js/2.90f16533.chunk.js",
+    "static/js/2.90f16533.chunk.js.map": "/static/js/2.90f16533.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ff174516e42c1e7ed89490e19829c166.js": "/precache-manifest.ff174516e42c1e7ed89490e19829c166.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.81fb00b0.chunk.css.map": "/static/css/main.81fb00b0.chunk.css.map",
+    "static/js/2.90f16533.chunk.js.LICENSE.txt": "/static/js/2.90f16533.chunk.js.LICENSE.txt",
+    "static/media/Brasília.jpeg": "/static/media/Brasília.dc15c836.jpeg",
+    "static/media/Fred.jpg": "/static/media/Fred.f3f519dc.jpg",
+    "static/media/Perfil.jpeg": "/static/media/Perfil.1b37eafb.jpeg",
+    "static/media/Resume-Débora-Serra.pdf": "/static/media/Resume-Débora-Serra.5d6c79c1.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.48e6d503.js",
+    "static/js/2.90f16533.chunk.js",
+    "static/css/main.81fb00b0.chunk.css",
+    "static/js/main.6c2c8d8a.chunk.js"
+  ]
+}
