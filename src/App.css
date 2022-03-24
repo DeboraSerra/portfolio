@@ -1,0 +1,33 @@
+:root {
+  --marine-blue: #1E2434;
+  --light-pink: #CDB9AE;
+  --light-brown: #504448;
+  --light-wine: #76394B;
+  --light-gray: rgb(225, 229, 235);
+  --gray1: rgb(62, 66, 75);
+  --gray2: rgb(40, 42, 47);
+  --gray3: rgb(30, 31, 36);
+  --gray4: rgb(26, 27, 28);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--marine-blue);
+  color: var(--light-pink);
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  background-color: var(--light-brown);
+  padding: 19px;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  /* bottom: 0; */
+}

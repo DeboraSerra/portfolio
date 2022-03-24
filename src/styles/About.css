@@ -1,0 +1,75 @@
+.about-title {
+  text-align: center;
+  font-size: 2.5rem;
+  border-bottom: 2px solid var(--light-wine);
+  margin: 15px 0;
+  padding: 15px;
+}
+
+.fred {
+  width: 340px;
+  height: 400px;
+  object-fit: cover;
+  max-width: 30%;
+}
+
+.fred-sect {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 0;
+
+}
+
+.brasilia {
+  width: 20%;
+  min-width: 200px;
+}
+
+.city-sect {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-sect {
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-sect1 {
+  align-self: center;
+  width: 650px;
+}
+
+.about-p1, .about-p2, .about-p3, .about-p4 {
+  margin: 20px;
+  font-size: 1.5rem;
+  text-align: justify;
+  width: 500px;
+}
+
+.skills-sect h2 {
+  font-size: 2rem;
+  text-align: center;
+  border-bottom: 2px solid var(--light-wine);
+  margin: 15px 0;
+  padding: 15px;
+}
+
+.skills-sect ul {
+  font-size: 1.5rem;
+  margin: auto;
+  width: 450px;
+  padding: 10px;
+}
+
+.skills-sect ul li {
+  background-color: var(--light-pink);
+  color: var(--light-wine);
+  border-radius: 20px;
+  list-style-position: inside;
+  margin: 10px;
+  padding: 5px;
+}

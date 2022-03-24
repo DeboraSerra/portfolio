@@ -1,0 +1,47 @@
+.projects-sect {
+  min-height: 79vh;
+  width: 90%;
+  margin: auto;
+}
+
+.projects-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 15px 0;
+  padding: 15px;
+  border-bottom: 2px solid var(--light-wine);
+}
+
+.projects-list {
+  width: fit-content;
+  padding: 10px;
+  font-size: 1.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-item {
+  list-style: none;
+}
+
+.project-link {
+  border-radius: 15px;
+  box-shadow: 0 0 5px var(--light-pink);
+  display: flex;
+  align-items: center;
+  background-color: var(--light-pink);
+  padding: 10px;
+  text-decoration: none;
+  color: var(--light-wine);
+  margin: 20px;
+  width: 200px;
+  text-align: center;
+  height: 200px;
+}
+
+.project-link:hover {
+  background-color: var(--light-wine);
+  color: var(--light-pink);
+  box-shadow: 0 0 10px var(--light-wine) , 0 0 20px var(--light-pink);
+}

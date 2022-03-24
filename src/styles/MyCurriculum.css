@@ -1,0 +1,90 @@
+.resume {
+  width: 90%;
+  margin: auto;
+}
+
+.resume-hr {
+  height: 1px;
+  color: var(--light-wine);
+}
+
+.resume-sect {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.resume-subsect:first-child {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  font-size: 2.5rem;
+}
+
+.resume-title {
+  margin-left: 100px;
+}
+
+.resume-pic {
+  width: 12%;
+  margin: 15px 100px 15px 15px;
+}
+
+.resume-subsect {
+  padding: 15px 0;
+  border-bottom: 2px solid var(--light-wine);
+}
+
+.resume-subtitle {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
+
+.resume-icon {
+  font-size: 1.5rem;
+  margin-right: 8px;
+}
+
+.resume-p {
+  font-size: 1.3rem;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.resume-subsect2 {
+  display: flex;
+  margin: 8px 0;
+}
+
+.year {
+  font-weight: 700;
+  margin-right: 50px;
+}
+
+.date {
+  margin-top: 15px;
+  align-self: center;
+}
+
+.resume-link {
+  display: block;
+  background-color: var(--light-pink);
+  padding: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--light-wine);
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 30px auto 15px;
+  width: fit-content;
+}
+
+.resume-link:hover {
+  background-color: var(--light-wine);
+  color: var(--light-pink);
+}

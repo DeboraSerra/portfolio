@@ -1,0 +1,40 @@
+.home-sect {
+  text-align: center;
+  margin: auto;
+  width: 90%;
+}
+
+.home-title {
+  font-size: 2.5rem;
+  margin: 15px 0;
+  padding: 15px;
+  border-bottom: 2px solid var(--light-wine);
+}
+
+.my-name {
+  margin-bottom: 25px;
+}
+
+.profile-img {
+  width: 35%;
+  min-width: 400px;
+  margin-bottom: 25px;
+}
+
+.profile-p {
+  font-size: 1.2rem;
+}
+
+.profile-p:last-child {
+  margin-top: 15px;
+  font-size: 1.5rem;
+}
+
+.profile-p a {
+  text-decoration: none;
+  color: var(--light-pink);
+}
+
+.profile-p a:hover {
+  color: var(--light-wine);
+}
