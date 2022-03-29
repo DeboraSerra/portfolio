@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.81fb00b0.chunk.css",
-    "main.js": "/portfolio/static/js/main.b0091d28.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b0091d28.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.515d4ea0.chunk.css",
+    "main.js": "/portfolio/static/js/main.69830faf.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.69830faf.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.02268697.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.02268697.js.map",
-    "static/js/2.90f16533.chunk.js": "/portfolio/static/js/2.90f16533.chunk.js",
-    "static/js/2.90f16533.chunk.js.map": "/portfolio/static/js/2.90f16533.chunk.js.map",
+    "static/js/2.6276b6f3.chunk.js": "/portfolio/static/js/2.6276b6f3.chunk.js",
+    "static/js/2.6276b6f3.chunk.js.map": "/portfolio/static/js/2.6276b6f3.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.538cbe219534dd73575a83c439fa7333.js": "/portfolio/precache-manifest.538cbe219534dd73575a83c439fa7333.js",
+    "precache-manifest.c0b953f9b6dbb8dff9059a537022b95b.js": "/portfolio/precache-manifest.c0b953f9b6dbb8dff9059a537022b95b.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.81fb00b0.chunk.css.map": "/portfolio/static/css/main.81fb00b0.chunk.css.map",
-    "static/js/2.90f16533.chunk.js.LICENSE.txt": "/portfolio/static/js/2.90f16533.chunk.js.LICENSE.txt",
-    "static/media/Brasília.jpeg": "/portfolio/static/media/Brasília.dc15c836.jpeg",
+    "static/css/main.515d4ea0.chunk.css.map": "/portfolio/static/css/main.515d4ea0.chunk.css.map",
+    "static/js/2.6276b6f3.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6276b6f3.chunk.js.LICENSE.txt",
     "static/media/Fred.jpg": "/portfolio/static/media/Fred.f3f519dc.jpg",
     "static/media/Perfil.jpeg": "/portfolio/static/media/Perfil.1b37eafb.jpeg",
-    "static/media/Resume-Débora-Serra.pdf": "/portfolio/static/media/Resume-Débora-Serra.38ea35c7.pdf"
+    "static/media/Resume-Débora-Serra.pdf": "/portfolio/static/media/Resume-Débora-Serra.06f3abb2.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.02268697.js",
-    "static/js/2.90f16533.chunk.js",
-    "static/css/main.81fb00b0.chunk.css",
-    "static/js/main.b0091d28.chunk.js"
+    "static/js/2.6276b6f3.chunk.js",
+    "static/css/main.515d4ea0.chunk.css",
+    "static/js/main.69830faf.chunk.js"
   ]
 }
