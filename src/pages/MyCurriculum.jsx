@@ -1,7 +1,6 @@
 import React from 'react';
 import { FaWhatsapp, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { FiMail, FiPhone } from 'react-icons/fi';
-import Profile from '../images/Perfil.jpeg';
 import Resume from '../images/Resume-Débora-Serra.pdf';
 import '../styles/MyCurriculum.css';
 

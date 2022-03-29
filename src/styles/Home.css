@@ -38,3 +38,12 @@
 .profile-p a:hover {
   color: var(--light-wine);
 }
+
+@media screen and (max-width: 400px) {
+  
+  .profile-img {
+    width: 35%;
+    min-width: 300px;
+    margin-bottom: 25px;
+  }
+}

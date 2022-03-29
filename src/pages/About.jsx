@@ -1,7 +1,7 @@
 import React from 'react';
 import Fred from '../images/Fred.jpg';
-import Brasília from '../images/Brasília.jpeg';
 import '../styles/About.css';
+import { Map, Marker } from 'pigeon-maps';
 
 class About extends React.Component {
   render() {
@@ -9,7 +9,11 @@ class About extends React.Component {
       <section className="about-sect">
         <h2 className="about-title">About me</h2>
         <section className="city-sect">
-          <img className="brasilia" src={ Brasília } alt="Map of Brazilia" />
+          <section className="brasilia">
+            <Map defaultCenter={[-15.75240, -47.75379]} defaultZoom={10}>
+              <Marker color='#76394B' width={50} anchor={[-15.75240, -47.75379]} />
+            </Map>
+          </section>
           <section className="about-sect1">
             <p className="about-p1">I am brazilian, born in Brazilia - DF. I've lived for two months in Itapema/SC and for one year and eight months in Andradas/MG.</p>
             <p className="about-p2">I am 29 years old, I like to watch movies and TV series, learn new things, read, dye my hair, a little of everything.</p>
