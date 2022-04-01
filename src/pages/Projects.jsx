@@ -19,7 +19,7 @@ class Projects extends React.Component {
                 className="project-item"
                 key={ id }
               >
-                {src && <img className="project-img" src={ src } alt={ name } width="100" />}
+                {src && <img className="project-img" src={ src } alt={ name } />}
                 <p className="project-name">{name}</p>
               </li>
             </a>
