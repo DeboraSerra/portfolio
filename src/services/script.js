@@ -105,7 +105,7 @@ const projects = [
     id: 18,
     name: 'Project Trivia Game',
     link: 'https://deboraserra.github.io/project-trivia-game/',
-    src: '',
+    src: 'https://github.com/DeboraSerra/portfolio/blob/master/src/images/trivi-game.png?raw=true',
   },
 ];
 
