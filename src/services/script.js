@@ -101,6 +101,12 @@ const projects = [
     link: 'https://deboraserra.github.io/project-trybewallet/',
     src: 'https://github.com/DeboraSerra/portfolio/blob/master/src/images/trybewallet.png?raw=true',
   },
+  {
+    id: 18,
+    name: 'Project Trivia Game',
+    link: 'https://deboraserra.github.io/project-trivia-game/',
+    src: '',
+  },
 ];
 
 export default projects;
