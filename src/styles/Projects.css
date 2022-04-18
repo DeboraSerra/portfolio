@@ -12,6 +12,15 @@
   border-bottom: 2px solid var(--light-wine);
 }
 
+.projects-module {
+  font-size: 2rem;
+  text-align: center;
+  margin: 15px auto;
+  padding: 15px;
+  border-bottom: 1px solid var(--light-wine);
+  width: fit-content;
+}
+
 .projects-list {
   width: fit-content;
   padding: 10px;
@@ -19,6 +28,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: auto;
+  max-width: 100%;
 }
 
 .project-item {
