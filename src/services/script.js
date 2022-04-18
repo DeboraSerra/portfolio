@@ -111,7 +111,7 @@ const projects = [
     id: 19,
     name: "Project Star Wars Planets",
     link: "https://deboraserra.github.io/project-starwars-planets/",
-    src: "",
+    src: "https://github.com/DeboraSerra/portfolio/blob/master/src/images/Starwars.png?raw=true",
   },
 ];
 
