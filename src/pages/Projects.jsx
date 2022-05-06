@@ -17,16 +17,26 @@ class Projects extends React.Component {
           {projects.map(({ id, module, name, link, src }) => {
             if (module === "fundaments") {
               return (
-                <a className="project-link" href={link}>
-                  <li className="project-item" key={id}>
+                <a
+                  className="project-link"
+                  href={ link }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  key={ id }
+                >
+                  <li className="project-item">
                     {src && (
-                      <img className="project-img" src={src} alt={name} />
+                      <img
+                        className="project-img"
+                        src={ src }
+                        alt={ name }
+                      />
                     )}
                     <p className="project-name">{name}</p>
                   </li>
                 </a>
               );
-            }
+            } return null;
           })}
         </section>
         <h3 className="projects-module">Font End Development</h3>
@@ -34,16 +44,26 @@ class Projects extends React.Component {
           {projects.map(({ id, module, name, link, src }) => {
             if (module === "frontEnd") {
               return (
-                <a className="project-link" href={link}>
-                  <li className="project-item" key={id}>
+                <a
+                  className="project-link"
+                  href={ link }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  key={ id }
+                >
+                  <li className="project-item">
                     {src && (
-                      <img className="project-img" src={src} alt={name} />
+                      <img
+                        className="project-img"
+                        src={ src }
+                        alt={ name }
+                      />
                     )}
                     <p className="project-name">{name}</p>
                   </li>
                 </a>
               );
-            }
+            } return null;
           })}
         </section>
         <h3 className="projects-module">Personal Projects</h3>
@@ -51,16 +71,26 @@ class Projects extends React.Component {
           {projects.map(({ id, module, name, link, src }) => {
             if (module === "personal") {
               return (
-                <a className="project-link" href={link}>
-                  <li className="project-item" key={id}>
+                <a
+                  className="project-link"
+                  href={ link }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  key={ id }
+                >
+                  <li className="project-item">
                     {src && (
-                      <img className="project-img" src={src} alt={name} />
+                      <img
+                        className="project-img"
+                        src={ src }
+                        alt={ name }
+                      />
                     )}
                     <p className="project-name">{name}</p>
                   </li>
                 </a>
               );
-            }
+            } return null;
           })}
         </section>
       </section>
