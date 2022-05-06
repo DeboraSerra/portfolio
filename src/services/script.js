@@ -137,14 +137,14 @@ const projects = [
     module: "personal",
     name: "Password Generator",
     link: "https://deboraserra.github.io/password-generator/",
-    src: "",
+    src: "https://github.com/DeboraSerra/portfolio/blob/master/src/images/PasswordGenerator.png?raw=true",
   },
   {
     id: 21,
     module: "frontEnd",
     name: "Project Recipes App",
     link: "https://deboraserra.github.io/project-recipes-app/",
-    src: "",
+    src: "https://github.com/DeboraSerra/portfolio/blob/master/src/images/RecipesApp.png?raw=true",
   },
 ];
 
