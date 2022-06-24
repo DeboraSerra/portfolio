@@ -5,7 +5,7 @@ const projects = [
     module: 'Fundaments',
     name: 'Project lessons learned',
     link: 'https://deboraserra.github.io/Project-lessons-learned/project-block3.html',
-    src: 'blob:https://deboraserra.github.io/add12588-dc2b-4c45-8b40-8ee81cff56ca'
+    src: 'https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/lessonsLearned.png?raw=true'
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const projects = [
     name: 'Project Playground Functions',
     description: 'It was developed as project to the Software Development course in Trybe. It was meant to apply the knowledge in JavaScript using conditions (if/else, switch/case), loops (for, for/in, for/of) and common operators.',
     link: 'https://github.com/DeboraSerra/Trybe-exercises/tree/main/Module1_Fundaments/Block4/Project-playground-functions',
-    src: 'blob:https://deboraserra.github.io/44d0ef48-9f27-41a4-8baf-ca16d6a26f10',
+    src: 'https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/playground.jpeg?raw=true',
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const projects = [
     module: 'Fundaments',
     description: 'It was developed as project to the Software Development course in Trybe. It was meant to apply the knowledge we had acquired so far using DOM. The project is a painting board were the user can select a a color and then click the \'pixel\' board to color it. The user can also resize the board from 5 to 50 \'pixels\'.',
     link: 'https://deboraserra.github.io/Project-pixel-art/index.html',
-    src: 'blob:https://deboraserra.github.io/3040c035-74a1-488b-8ece-6ee1f2a3c19a',
+    src: 'https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/pixelArt.png?raw=true',
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const projects = [
     name: 'Project To Do List',
     description: 'It was developed as project to the Software Development course in Trybe. It was meant to apply the knowledge we had acquired so far using DOM. The project is a to do list were the user can add as many tasks as they like, can mark it as complete, change it\'s position, delete tasks and save to access the tasks later.',
     link: 'https://deboraserra.github.io/Project-to-do-list/index.html',
-    src: 'blob:https://deboraserra.github.io/23acd164-7f13-4e54-b6ec-7799c407cbbe',
+    src: 'https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/ToDoList.png?raw=true',
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ const projects = [
     name: 'Project Mystery Letter',
     description: 'It was developed as project to the Software Development course in Trybe. It was meant to apply the knowledge we had acquired so far using DOM. The project is a sort of game where the user can type a phrase e see it turned into a message \'clipped\' from magazines and newspapers.',
     link: 'https://deboraserra.github.io/Project-mystery-letter/index.html',
-    src: 'blob:https://deboraserra.github.io/7db04ecf-1e16-4759-abeb-844879afaefb',
+    src: 'https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/MysteryLetter.png?raw=true',
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ const projects = [
     name: 'Project Meme Generator',
     description: 'It was developed as project to the Software Development course in Trybe. It was meant to apply the knowledge we had acquired so far using DOM. In this project the user can select a famous image or upload one and type a message to appear as a meme. They can also select three different type of border to decorate it.',
     link: 'https://deboraserra.github.io/Project-meme-generator/index.html',
-    src: 'blob:https://deboraserra.github.io/9ef7ca53-0a66-439a-b549-adab8e861e65',
+    src: 'https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/MemeGenerator.png?raw=true',
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ const projects = [
     name: 'Project Color Guess',
     description: 'It was developed as project to the Software Development course in Trybe. It was meant to apply the knowledge we had acquired so far using DOM. This project is a game where the user receive three different numbers between 0 and 255 and 6 colors. Then they have to guess which of the colors match the given numbers based in the rgb colors. For each right answer the user receives 3 points.',
     link: 'https://deboraserra.github.io/Project-color-guess/index.html',
-    src: 'blob:https://deboraserra.github.io/c2d169fb-062b-4f8e-ac6a-7e261fc31a34',
+    src: 'https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/ColorGuess.png?raw=true',
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ const projects = [
     module: 'Fundaments',
     name: 'Project Trybewarts',
     link: 'https://deboraserra.github.io/Project-Trybewarts/index.html',
-    src: 'blob:https://deboraserra.github.io/577b9e9e-e81f-4fce-ae28-0a0f9c7d4c2a',
+    src: 'https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/TrybeWarts.png?raw=true',
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ const projects = [
     module: 'Personal project',
     name: 'Clock',
     link: 'https://deboraserra.github.io/Clock/index.html',
-    src: 'blob:https://deboraserra.github.io/f6ea564d-e445-4c44-aa19-b37eaae2aeb4',
+    src: 'https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/Clock.png?raw=true',
   },
   {
     id: 10,
@@ -77,7 +77,7 @@ const projects = [
     module: 'Fundaments',
     name: 'Project Zoo Functions',
     link: 'https://github.com/DeboraSerra/DeboraSerra.github.io/tree/main/Project-zoo-functions',
-    src: 'blob:https://deboraserra.github.io/1af1efc0-9ee8-4479-b02c-539c22e6aa9f',
+    src: 'https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/zoofunctions.jpeg?raw=true',
   },
   {
     id: 11,
@@ -85,7 +85,7 @@ const projects = [
     module: 'Fundaments',
     name: 'Project Shopping Cart',
     link: 'https://deboraserra.github.io/Project-shopping-cart/index.html',
-    src: 'blob:https://deboraserra.github.io/b167ec03-68a2-458a-a6bf-d1940231ac84',
+    src: 'https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/ShoppingCart.png?raw=true',
   },
   {
     id: 12,
@@ -93,7 +93,7 @@ const projects = [
     module: 'Front-end',
     name: 'Project Solar System',
     link: 'https://deboraserra.github.io/project-solar-system/',
-    src: 'blob:https://deboraserra.github.io/0b1a1976-557f-4f93-a471-7a230e67df25',
+    src: 'https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/SolarSystem.png?raw=true',
   },
   {
     id: 13,
@@ -101,7 +101,7 @@ const projects = [
     module: 'Front-end',
     name: 'Project Tryunfo',
     link: 'https://deboraserra.github.io/project-tryunfo/',
-    src: 'blob:https://deboraserra.github.io/9e9a75f0-77f9-49b3-b4dd-b44c2525d189',
+    src: 'https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/Tryunfo.png?raw=true',
   },
   {
     id: 14,
@@ -109,7 +109,7 @@ const projects = [
     module: 'Personal project',
     name: 'Project Stopwatch',
     link: 'https://deboraserra.github.io/stopwatch/',
-    src: 'blob:https://deboraserra.github.io/49d7ebd1-af38-4f4a-8afb-9d0512f5a1d4',
+    src: 'https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/Stopwatch.png?raw=true',
   },
   {
     id: 15,
@@ -117,7 +117,7 @@ const projects = [
     module: 'Front-end',
     name: 'Project TrybeTunes',
     link: 'https://deboraserra.github.io/project-trybe-tunes/',
-    src: 'blob:https://deboraserra.github.io/d904c400-c20d-46c8-887d-56b6912b3ac6',
+    src: 'https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/Trybetunes.png?raw=true',
   },
   {
     id: 16,
@@ -125,7 +125,7 @@ const projects = [
     module: 'Front-end',
     name: 'Project Front-end Online Store',
     link: 'https://deboraserra.github.io/project-online-store/',
-    src: 'blob:https://deboraserra.github.io/941e6173-a146-48b3-b686-78a944391591',
+    src: 'https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/OnlineStore.png?raw=true',
   },
   {
     id: 17,
@@ -133,7 +133,7 @@ const projects = [
     module: 'Front-end',
     name: 'Project Trybewallet',
     link: 'https://deboraserra.github.io/project-trybewallet/',
-    src: 'blob:https://deboraserra.github.io/cc532d6e-ede1-4cf7-af26-7b5de00a3e3b',
+    src: 'https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/trybewallet.png?raw=true',
   },
   {
     id: 18,
@@ -141,7 +141,7 @@ const projects = [
     module: 'Front-end',
     name: 'Project Trivia Game',
     link: 'https://deboraserra.github.io/project-trivia-game/',
-    src: 'blob:https://deboraserra.github.io/b9299484-4214-4fd6-a35a-d77dc4ada423',
+    src: 'https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/trivi-game.png?raw=true',
   },
   {
     id: 19,
@@ -149,7 +149,7 @@ const projects = [
     module: 'Front-end',
     name: 'Project Star Wars Planets',
     link: 'https://deboraserra.github.io/project-starwars-planets/',
-    src: 'blob:https://deboraserra.github.io/a2fe70a8-e0c1-47ae-a9c8-1c57fc8fa0bd',
+    src: 'https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/Starwars.png?raw=true',
   },
   {
     id: 20,
@@ -157,7 +157,7 @@ const projects = [
     module: 'Personal project',
     name: 'Password Generator',
     link: 'https://deboraserra.github.io/password-generator/',
-    src: 'blob:https://deboraserra.github.io/8901e2c1-612c-4b84-a2e7-2e640b88811a',
+    src: 'https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/PasswordGenerator.png?raw=true',
   },
   {
     id: 21,
@@ -165,7 +165,7 @@ const projects = [
     module: 'Front-end',
     name: 'Project Recipes App',
     link: 'https://deboraserra.github.io/project-recipes-app/',
-    src: 'blob:https://deboraserra.github.io/f9caf8db-0c2b-4790-9592-9ba7d5d57a07',
+    src: 'https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/RecipesApp.png?raw=true',
   },
   {
     id: 22,
@@ -173,7 +173,7 @@ const projects = [
     module: 'Back-end',
     name: 'Project Docker To-do List',
     link: 'https://github.com/DeboraSerra/project-docker-todo-list',
-    src: 'blob:https://deboraserra.github.io/682fc189-69d8-4141-9d4f-d048d9e2efe5',
+    src: 'https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/docker-to-do.png?raw=true',
   },
   {
     id: 23,
@@ -197,7 +197,7 @@ const projects = [
     module: 'Back-end',
     name: 'Project Talker Manager',
     link: 'https://github.com/DeboraSerra/Project-talker-manager',
-    src: 'blob:https://deboraserra.github.io/4e3a5096-5024-48d9-9690-6d646323f083',
+    src: 'https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/talkerManager.png?raw=true',
   },
   {
     id: 26,
@@ -205,7 +205,7 @@ const projects = [
     module: 'Personal project',
     name: 'Project Escritório do seu Zé',
     link: 'https://github.com/DeboraSerra/Escritorio-do-seu-ze',
-    src: 'blob:https://deboraserra.github.io/a91a5942-ef35-49b1-8a7c-6ed52f6d22f5',
+    src: 'https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/excritorioSeuZe.png?raw=true',
   }
 ];
 
