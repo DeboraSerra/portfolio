@@ -27,11 +27,15 @@ const createProject = async ({ description, module, name, link, src }) => {
 
 }
 
-const update = async (id, table, field, data) => {
-  const query = 'UPDATE ? SET ? = ? WHERE id = ?';
-  await conn.execute(query, [table, field, data, id]);
-}
+// const update = async (id, table, field, data) => {
+//   const query = 'UPDATE ? SET ? = ? WHERE id = ?';
+//   await conn.execute(query, [table, field, data, id]);
+// }
 
-projects.forEach(({ name, module, link, description, src }) => {
+projects.forEach(async ({ name, module, link, description, src }) => {
+  await conn.execute('TRUNCATE TABLE fundaments');
+  await conn.execute('TRUNCATE TABLE front_end');
+  await conn.execute('TRUNCATE TABLE back_end');
+  await conn.execute('TRUNCATE TABLE personal');
   createProject({ name, module, description, link, src });
 });
