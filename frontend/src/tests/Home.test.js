@@ -4,7 +4,6 @@ import { screen } from '@testing-library/react';
 import renderWithRouter from "./helpers/renderWithRouter";
 import userEvent from '@testing-library/user-event';
 import Home from "../pages/Home";
-import GitHub from "./mocks/GitHupPage";
 
 describe('Test the Home page', () => {
   it('tests if there is an image', () => {

@@ -33,8 +33,8 @@ class Contact extends React.Component {
   }
 
   sendForm = (e) => {
+    e.preventDefault();
     this.setState({ clicked: true }, () => {
-      e.preventDefault();
       const { user_email, user_name, message } = this.state;
       this.sendEmail({ user_email, user_name, message });
     })
@@ -65,7 +65,7 @@ class Contact extends React.Component {
           <FaWhatsapp className="contact-icon" />
             +55 61 98231 1582
           </a>
-          
+
         </p>
         <p className="contact-info">
           <FiMail className="contact-icon" />
@@ -80,7 +80,7 @@ class Contact extends React.Component {
               rel="noopener noreferrer"
             >
             <FaGithub className="contact-icon big" />
-              <p>https://github.com/DeboraSerra</p>
+              https://github.com/DeboraSerra
             </a>
           </p>
           <p className="contact-info">
@@ -91,7 +91,7 @@ class Contact extends React.Component {
               rel="noopener noreferrer"
             >
             <FaLinkedin className="contact-icon big" />
-              <p>https://www.linkedin.com/in/debora-r-serra/</p>
+              https://www.linkedin.com/in/debora-r-serra/
             </a>
           </p>
         </section>

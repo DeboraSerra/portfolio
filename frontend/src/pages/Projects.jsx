@@ -41,7 +41,7 @@ class Projects extends React.Component {
       <section className="projects-sect">
         <h2 className="projects-title">My Projects</h2>
         <section className="projects-list">
-          <FaAngleLeft className="icon" onClick={ this.prevImg } />
+          <FaAngleLeft className="icon" onClick={ this.prevImg } data-testid="leftArrow"/>
             <section className="project-item">
               <h3 className="small-proj">{prevProj.name}</h3>
             </section>
@@ -69,7 +69,7 @@ class Projects extends React.Component {
             <section className="project-item">
               <h3 className="small-proj">{nextProj.name}</h3>
             </section>
-          <FaAngleRight className="icon" onClick={ this.nextImg } />
+          <FaAngleRight className="icon" onClick={ this.nextImg } data-testid="rightArrow" />
         </section>
         <section className="btn-sect">
           {projects.map(({ name, id }, index) => (
