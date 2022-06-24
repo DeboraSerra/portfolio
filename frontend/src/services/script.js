@@ -5,7 +5,7 @@ const projects = [
     module: "Fundaments",
     name: "Project lessons learned",
     link: "https://deboraserra.github.io/Project-lessons-learned/project-block3.html",
-    src: "https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/lessonsLearned.png?raw=true",
+    src: 'blob:https://deboraserra.github.io/add12588-dc2b-4c45-8b40-8ee81cff56ca'
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const projects = [
     name: "Project Playground Functions",
     description: 'It was developed as project to the Software Development course in Trybe. It was meant to apply the knowledge in JavaScript using conditions (if/else, switch/case), loops (for, for/in, for/of) and common operators.',
     link: "https://github.com/DeboraSerra/Trybe-exercises/tree/main/Module1_Fundaments/Block4/Project-playground-functions",
-    src: "https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/playground.jpeg?raw=true",
+    src: "blob:https://deboraserra.github.io/44d0ef48-9f27-41a4-8baf-ca16d6a26f10",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const projects = [
     module: "Fundaments",
     description: 'It was developed as project to the Software Development course in Trybe. It was meant to apply the knowledge we had acquired so far using DOM. The project is a painting board were the user can select a a color and then click the \'pixel\' board to color it. The user can also resize the board from 5 to 50 \'pixels\'.',
     link: "https://deboraserra.github.io/Project-pixel-art/index.html",
-    src: "https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/pixelArt.png?raw=true",
+    src: "blob:https://deboraserra.github.io/3040c035-74a1-488b-8ece-6ee1f2a3c19a",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const projects = [
     name: "Project To Do List",
     description: 'It was developed as project to the Software Development course in Trybe. It was meant to apply the knowledge we had acquired so far using DOM. The project is a to do list were the user can add as many tasks as they like, can mark it as complete, change it\'s position, delete tasks and save to access the tasks later.',
     link: "https://deboraserra.github.io/Project-to-do-list/index.html",
-    src: "https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/ToDoList.png?raw=true",
+    src: "blob:https://deboraserra.github.io/23acd164-7f13-4e54-b6ec-7799c407cbbe",
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ const projects = [
     name: "Project Mystery Letter",
     description: 'It was developed as project to the Software Development course in Trybe. It was meant to apply the knowledge we had acquired so far using DOM. The project is a sort of game where the user can type a phrase e see it turned into a message \'clipped\' from magazines and newspapers.',
     link: "https://deboraserra.github.io/Project-mystery-letter/index.html",
-    src: "https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/MysteryLetter.png?raw=true",
+    src: "blob:https://deboraserra.github.io/7db04ecf-1e16-4759-abeb-844879afaefb",
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ const projects = [
     name: "Project Meme Generator",
     description: 'It was developed as project to the Software Development course in Trybe. It was meant to apply the knowledge we had acquired so far using DOM. In this project the user can select a famous image or upload one and type a message to appear as a meme. They can also select three different type of border to decorate it.',
     link: "https://deboraserra.github.io/Project-meme-generator/index.html",
-    src: "https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/MemeGenerator.png?raw=true",
+    src: "blob:https://deboraserra.github.io/9ef7ca53-0a66-439a-b549-adab8e861e65",
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ const projects = [
     name: "Project Color Guess",
     description: 'It was developed as project to the Software Development course in Trybe. It was meant to apply the knowledge we had acquired so far using DOM. This project is a game where the user receive three different numbers between 0 and 255 and 6 colors. Then they have to guess which of the colors match the given numbers based in the rgb colors. For each right answer the user receives 3 points.',
     link: "https://deboraserra.github.io/Project-color-guess/index.html",
-    src: "https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/ColorGuess.png?raw=true",
+    src: "blob:https://deboraserra.github.io/c2d169fb-062b-4f8e-ac6a-7e261fc31a34",
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ const projects = [
     module: "Fundaments",
     name: "Project Trybewarts",
     link: "https://deboraserra.github.io/Project-Trybewarts/index.html",
-    src: "https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/TrybeWarts.png?raw=true",
+    src: "blob:https://deboraserra.github.io/577b9e9e-e81f-4fce-ae28-0a0f9c7d4c2a",
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ const projects = [
     module: "Personal project",
     name: "Clock",
     link: "https://deboraserra.github.io/Clock/index.html",
-    src: "https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/Clock.png?raw=true",
+    src: "blob:https://deboraserra.github.io/f6ea564d-e445-4c44-aa19-b37eaae2aeb4",
   },
   {
     id: 10,
@@ -77,7 +77,7 @@ const projects = [
     module: "Fundaments",
     name: "Project Zoo Functions",
     link: "https://github.com/DeboraSerra/DeboraSerra.github.io/tree/main/Project-zoo-functions",
-    src: "https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/zoofunctions.jpeg?raw=true",
+    src: "blob:https://deboraserra.github.io/1af1efc0-9ee8-4479-b02c-539c22e6aa9f",
   },
   {
     id: 11,
@@ -85,7 +85,7 @@ const projects = [
     module: "Fundaments",
     name: "Project Shopping Cart",
     link: "https://deboraserra.github.io/Project-shopping-cart/index.html",
-    src: "https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/ShoppingCart.png?raw=true",
+    src: "blob:https://deboraserra.github.io/b167ec03-68a2-458a-a6bf-d1940231ac84",
   },
   {
     id: 12,
@@ -93,7 +93,7 @@ const projects = [
     module: "Front-end",
     name: "Project Solar System",
     link: "https://deboraserra.github.io/project-solar-system/",
-    src: "https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/SolarSystem.png?raw=true",
+    src: "blob:https://deboraserra.github.io/0b1a1976-557f-4f93-a471-7a230e67df25",
   },
   {
     id: 13,
@@ -101,7 +101,7 @@ const projects = [
     module: "Front-end",
     name: "Project Tryunfo",
     link: "https://deboraserra.github.io/project-tryunfo/",
-    src: "https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/Tryunfo.png?raw=true",
+    src: "blob:https://deboraserra.github.io/9e9a75f0-77f9-49b3-b4dd-b44c2525d189",
   },
   {
     id: 14,
@@ -109,7 +109,7 @@ const projects = [
     module: "Personal project",
     name: "Project Stopwatch",
     link: "https://deboraserra.github.io/stopwatch/",
-    src: "https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/Stopwatch.png?raw=true",
+    src: "blob:https://deboraserra.github.io/49d7ebd1-af38-4f4a-8afb-9d0512f5a1d4",
   },
   {
     id: 15,
@@ -117,7 +117,7 @@ const projects = [
     module: "Front-end",
     name: "Project TrybeTunes",
     link: "https://deboraserra.github.io/project-trybe-tunes/",
-    src: "https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/Trybetunes.png?raw=true",
+    src: "blob:https://deboraserra.github.io/d904c400-c20d-46c8-887d-56b6912b3ac6",
   },
   {
     id: 16,
@@ -125,7 +125,7 @@ const projects = [
     module: "Front-end",
     name: "Project Front-end Online Store",
     link: "https://deboraserra.github.io/project-online-store/",
-    src: "https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/OnlineStore.png?raw=true",
+    src: "blob:https://deboraserra.github.io/941e6173-a146-48b3-b686-78a944391591",
   },
   {
     id: 17,
@@ -133,15 +133,15 @@ const projects = [
     module: "Front-end",
     name: "Project Trybewallet",
     link: "https://deboraserra.github.io/project-trybewallet/",
-    src: "https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/trybewallet.png?raw=true",
+    src: "blob:https://deboraserra.github.io/cc532d6e-ede1-4cf7-af26-7b5de00a3e3b",
   },
   {
     id: 18,
-    description: 'It was developed in a group of five people as a project to the Software Development course in Trybe. It was meant to practice everything we learned so far and to apply the agile methodologies. This project is a trivia game where the user can select the difficulty, category and type of the questions by clicking the gear button. After that, they must type a name and an email to start the game. When the game starts, the user has 30 seconds to to answer the question. If they answer in time, the correct answer appears in green and the wrong ones appear in red and the next button becomes visible. If the user doesn\'t answer in time, the answer buttons are disabled and a button to start again appears on screen. The game has 5 questions and at the end the user receives a score and number of hits. After that, the user can choose to play again or see the ranking of the players.',
+    description: 'It was developed in a group of six people as a project to the Software Development course in Trybe. It was meant to practice everything we learned so far and to apply the agile methodologies. This project is a trivia game where the user can select the difficulty, category and type of the questions by clicking the gear button. After that, they must type a name and an email to start the game. When the game starts, the user has 30 seconds to to answer the question. If they answer in time, the correct answer appears in green and the wrong ones appear in red and the next button becomes visible. If the user doesn\'t answer in time, the answer buttons are disabled and a button to start again appears on screen. The game has 5 questions and at the end the user receives a score and number of hits. After that, the user can choose to play again or see the ranking of the players.',
     module: "Front-end",
     name: "Project Trivia Game",
     link: "https://deboraserra.github.io/project-trivia-game/",
-    src: "https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/trivi-game.png?raw=true",
+    src: "blob:https://deboraserra.github.io/b9299484-4214-4fd6-a35a-d77dc4ada423",
   },
   {
     id: 19,
@@ -149,7 +149,7 @@ const projects = [
     module: "Front-end",
     name: "Project Star Wars Planets",
     link: "https://deboraserra.github.io/project-starwars-planets/",
-    src: "https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/Starwars.png?raw=true",
+    src: "blob:https://deboraserra.github.io/a2fe70a8-e0c1-47ae-a9c8-1c57fc8fa0bd",
   },
   {
     id: 20,
@@ -157,15 +157,15 @@ const projects = [
     module: "Personal project",
     name: "Password Generator",
     link: "https://deboraserra.github.io/password-generator/",
-    src: "https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/PasswordGenerator.png?raw=true",
+    src: "blob:https://deboraserra.github.io/8901e2c1-612c-4b84-a2e7-2e640b88811a",
   },
   {
     id: 21,
-    description: 'It was developed in a group of five people as a project to the Software Development course in Trybe. It was meant to practice everything we learned so far as the final project to the Front End Module and to apply the agile methodologies. This project uses two recipes APIs, one for meals and one for drinks. In this application the user can \'log in\' with email and password and be redirected to the meals page, where they can see 12 cards of different recipes. The user can select a specific category or search for a specific ingredient or meal name and select meal card to be redirected to the recipe. In the recipe page, the user can like it or click the share button to copy the url of the recipe, choose a recommended drink or start the recipe. When the user starts the recipe, they are redirected to a similar page, where they can check the ingredients as they proceed. If for some reason the user has to stop in the middle, the progress is saved, otherwise the finish button is enabled and the user is redirected to the done recipes page. The user can also click the profile button and then choose to see the done recipes page or the the favorite recipes page. The drinks paths are the same, the user just have to click the dink icon on the bottom left of the screen. If the user click the compass icon, they will be redirected to the explore page, where they can choose to explore drinks or foods, and then choose to explore by ingredient, by nationality (foods) or to receive a surprise recipe. This application was developed with more than 90% test coverage.',
+    description: 'It was developed in a group of four people as a project to the Software Development course in Trybe. It was meant to practice everything we learned so far as the final project to the Front End Module and to apply the agile methodologies. This project uses two recipes APIs, one for meals and one for drinks. In this application the user can \'log in\' with email and password and be redirected to the meals page, where they can see 12 cards of different recipes. The user can select a specific category or search for a specific ingredient or meal name and select meal card to be redirected to the recipe. In the recipe page, the user can like it or click the share button to copy the url of the recipe, choose a recommended drink or start the recipe. When the user starts the recipe, they are redirected to a similar page, where they can check the ingredients as they proceed. If for some reason the user has to stop in the middle, the progress is saved, otherwise the finish button is enabled and the user is redirected to the done recipes page. The user can also click the profile button and then choose to see the done recipes page or the the favorite recipes page. The drinks paths are the same, the user just have to click the dink icon on the bottom left of the screen. If the user click the compass icon, they will be redirected to the explore page, where they can choose to explore drinks or foods, and then choose to explore by ingredient, by nationality (foods) or to receive a surprise recipe. This application was developed with more than 90% test coverage.',
     module: "Front-end",
     name: "Project Recipes App",
     link: "https://deboraserra.github.io/project-recipes-app/",
-    src: "https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/RecipesApp.png?raw=true",
+    src: "blob:https://deboraserra.github.io/f9caf8db-0c2b-4790-9592-9ba7d5d57a07",
   },
 ];
 
