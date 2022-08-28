@@ -4,7 +4,6 @@ const ProjectController = require('./project.controller');
 const router = Router();
 
 router.route('/')
-  .get(ProjectController.getAll)
-  .post(ProjectController.create);
+  .get(ProjectController.getAll);
 
 module.exports = router;

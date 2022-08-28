@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./src/index.js",
-    "start": "node ./src/index.js",
-    "build": "npm start"
+    "dev": "nodemon npm start",
+    "start": "vercel dev",
+    "build": "npm start",
+    "deploy": "vercel "
   },
   "keywords": [],
   "author": "",
@@ -16,7 +17,8 @@
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "express-async-errors": "^3.1.1",
-    "mysql2": "^2.3.3"
+    "mysql2": "^2.3.3",
+    "vercel": "^28.2.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
