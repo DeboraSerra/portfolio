@@ -1,4 +1,4 @@
-const Project = require('../models/projects.model');
+const Project = require('../projects.model');
 
 const ProjectService = {
   verifyInfo: async (info) => {

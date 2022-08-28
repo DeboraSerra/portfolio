@@ -1,5 +1,5 @@
-const conn = require('./connection');
-const projects = require('../../data/script');
+const conn = require('../connection/connection');
+// const projects = require('../../data/script');
 
 const Project = {
   createProject: async ({ description, module, name, link, src }) => {
