@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon npm start",
     "start": "vercel dev",
-    "build": "npm start",
+    "build": "node ./api/index.js",
     "deploy": "vercel "
   },
   "keywords": [],
