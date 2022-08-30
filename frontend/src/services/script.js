@@ -206,6 +206,22 @@ const projects = [
     name: 'Project Escritório do seu Zé',
     link: 'https://github.com/DeboraSerra/Escritorio-do-seu-ze',
     src: 'https://github.com/DeboraSerra/portfolio/blob/master/frontend/src/images/excritorioSeuZe.png?raw=true',
+  },
+  {
+    id: 27,
+    description: 'This project was an API developed to make a CRUD in a database. In this application, the user can see all the products and sales registered, register new products and new sales, and also update and delete the information registered. MySQL was used to store the data. I developed the frontend as a personal project so the user can add and delete products and sale, and also see the registered data.',
+    module: 'back_end',
+    name: 'Store Manager',
+    link: 'https://github.com/DeboraSerra/Project-store-manager',
+    src: 'https://tscscreencastliveeast.blob.core.windows.net/uploads/g000302GsZlFaRZTikydfDq9FdQTo/store_manager.png?sv=2019-07-07&sr=b&sig=OVoRqhIvNA2%2Bm2L6paKMQUasmLOv9pFOdlY4oebl8Y0%3D&st=2022-08-30T20%3A28%3A42Z&se=2022-08-31T20%3A33%3A42Z&sp=r',
+  },
+  {
+    id: 28,
+    description: 'This project was developed to practice everything learned so far regarding SQL database, express applications, TypeScript, Object Oriented Programing, SOLID principles, and more. In this project we received the front end ready and we had to develop the back end observing the requirements so the front end would work. The application is a football leader board where the user can log in and see the games in progress and finalized and see the statistics for each team.',
+    name: 'Trybe Futebol Clube',
+    module: 'back_end',
+    link: 'https://github.com/DeboraSerra/project-trybe-futebol-clube',
+    src: 'https://tscscreencastliveeast.blob.core.windows.net/uploads/g00030275xWiCAOR6sTKbyF152xJZ/tfc.png?sv=2019-07-07&sr=b&sig=4KS9gQqbj7yp3WwQ4tiaYzo28gAQtiCTmPIicnODMcM%3D&st=2022-08-30T20%3A28%3A59Z&se=2022-08-31T20%3A33%3A59Z&sp=r',
   }
 ];
 
