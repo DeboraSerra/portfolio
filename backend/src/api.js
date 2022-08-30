@@ -1,8 +1,9 @@
 const exppress = require('express');
 require('express-async-errors');
 require('dotenv/config');
+const serverless = require('serverless-http');
 const cors = require('cors');
-const projectRoute = require('./routes/project.route');
+const projectRoute = require('./projects');
 
 const PORT = process.env.PORT || 3001;
 
@@ -10,7 +11,7 @@ const app = exppress();
 app.use(cors());
 app.use(exppress.json());
 
-app.use('/projects', projectRoute);
+app.use('/.netlify/functions/api/projects', projectRoute);
 
 app.use((err, req, res, next) => {
   const { message } = err;
@@ -20,3 +21,4 @@ app.use((err, req, res, next) => {
 app.listen(PORT, () => console.log(PORT));
 
 module.exports = app;
+module.exports.handler = serverless(app);
