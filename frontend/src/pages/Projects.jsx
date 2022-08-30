@@ -46,6 +46,7 @@ class Projects extends React.Component {
 
   selectModule = (index, name) => {
     const { projects, modules } = this.state;
+    console.log(modules[index]);
     this.setState({
       renderProj: projects[modules[index]],
       module: name,
@@ -62,7 +63,7 @@ class Projects extends React.Component {
     const prevProj = renderProj[index === 0 ? renderProj.length - 1 : index - 1];
     const nextProj = renderProj[index === renderProj.length - 1 ? 0 : index + 1];
     const project = renderProj[index];
-    const { name, link, image, description } = project;
+    const { name, repository, image, description } = project;
     return (
       <section className="projects-sect">
         <h2 className="projects-title">My Projects</h2>
@@ -98,8 +99,8 @@ class Projects extends React.Component {
                   </p>
                 ))}
               </section>
-              <a className="project-link" target="_blank" href={ link } rel="noopener noreferrer">
-                {(/^https:\/\/github.com/g).test(link)
+              <a className="project-link" target="_blank" href={ repository } rel="noopener noreferrer">
+                {(/^https:\/\/github.com/g).test(repository)
                   ? 'See the repository'
                   : 'See it in action'
                 }
