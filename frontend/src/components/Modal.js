@@ -2,6 +2,7 @@ import React from "react";
 import '../styles/Modal.css';
 
 class Modal extends React.Component {
+
   componentDidMount() {
     window.addEventListener('click', this.handleClickOutside);
   }
@@ -16,12 +17,14 @@ class Modal extends React.Component {
       closeModal();
     }
   }
+
   render() {
     const { closeModal } = this.props;
     return (
       <div className="modal">
         <div className="modal-content">
           <span className="close" onClick={closeModal}>&times;</span>
+          {this.props.children}
           <h1 className="modal-title">Check out the new and improved version!</h1>
           <a className="modal-btn" href="https://portfolio-v3-brown.vercel.app/">New Portfolio</a>
         </div>
